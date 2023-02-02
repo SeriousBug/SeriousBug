@@ -1,6 +1,6 @@
 ## Active projects I'm working on
 
-### [gandi-live-dns ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/gandi-live-dns-rust) ![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust)
+### [Gandi Live Dns Rust ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/gandi-live-dns-rust) ![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust)
 
 A dynamic DNS system that works with Gandi's live DNS feature. Allows you to
 host servers without a static IP address by updating DNS records whenever your
