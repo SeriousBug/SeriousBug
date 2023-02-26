@@ -49,6 +49,13 @@ than `POST`. Forms normally can only be submitted through `GET` or `POST`
 methods, but this middleware reroutes requests using a query parameter to other
 methods.
 
+### [Http Drogue](https://github.com/SeriousBug/http-drogue)
+
+![](https://raw.githubusercontent.com/SeriousBug/http-drogue/main/pub/screenshot.png)
+
+A tiny self-hosted service to download files over http, with support for resuming and restarting failed downloads.
+Built with Rust, basic HTML templates using Askama, TailwindCSS, and DaisyUI. Uses no javascript!
+
 ---
 
 ## About me
@@ -64,7 +71,7 @@ methods.
 - I'm learning [Svelte](https://svelte.dev/). It's very fun because it compiles
   down to simple javascript, and gracefully supports progressive enhancement.
 - When I'm not programming, I am usually cooking (vegan), playing (World of
-  Warcraft, Rimworld, Ultrakill), riding my bicycle, or playing with my dogs.
+  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my dogs.
 - I graduated from The Ohio State University with an MS in Computer Science. You can find [my publications](https://scholar.google.com/citations?user=tHrUCC4AAAAJ&hl=en&oi=ao) online.
 - Pronouns: He/him
 
