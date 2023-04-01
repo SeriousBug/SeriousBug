@@ -31,7 +31,7 @@ type negotiation, and is built for high performance.
 
 ### [Bulgur Cloud ![GitHub Repo stars](https://img.shields.io/github/stars/bulgur-cloud/bulgur-cloud) ![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud)
 
-![](https://bgenc.net/img/bulgur-cloud-2022-12-30.png)
+![](https://media.githubusercontent.com/media/bulgur-cloud/bulgur-cloud.github.io/main/static/img/homepage-screenshot.png)
 
 An easy to self host cloud file storage and sharing system. It's similar to Google Drive or NextCloud, but effortless to set up and maintain. Built in Rust and TypeScript, using Actix-Web and React Native.
 
@@ -49,7 +49,7 @@ than `POST`. Forms normally can only be submitted through `GET` or `POST`
 methods, but this middleware reroutes requests using a query parameter to other
 methods.
 
-### [Http Drogue](https://github.com/SeriousBug/http-drogue)
+### [Http Drogue](https://github.com/SeriousBug/http-drogue) ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/http-drogue)
 
 ![](https://raw.githubusercontent.com/SeriousBug/http-drogue/main/pub/screenshot.png)
 
