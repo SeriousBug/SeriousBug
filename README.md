@@ -1,85 +1,48 @@
-## Active projects I'm working on
+## Featured Projects
 
-### [Gandi Live Dns Rust ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/gandi-live-dns-rust) ![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust)
+### [Bulgur Cloud](https://github.com/bulgur-cloud/bulgur-cloud) [![GitHub Repo stars](https://img.shields.io/github/stars/bulgur-cloud/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud) [![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud)
 
-A dynamic DNS system that works with Gandi's live DNS feature. Allows you to
-host servers without a static IP address by updating DNS records whenever your
-IP changes. Flexible deployments through Docker or system packages with systemd
-timers.
+Bulgur Cloud offers a user-friendly, self-hosted file storage and sharing platform with emphasis on hassle-free setup and maintenance. Built with modern web technologies: Rust (Actix-Web) for a robust backend and TypeScript (React, Next.js) for an intuitive interface.
 
-### [Cuttlestore ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/cuttlestore) ![Crates.io](https://img.shields.io/crates/d/cuttlestore)](https://github.com/SeriousBug/cuttlestore)
+### [Rust Embed for Web](https://github.com/SeriousBug/rust-embed-for-web) and [Responder for Actix Web](https://github.com/SeriousBug/actix-web-rust-embed-responder) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/rust-embed-for-web)](https://github.com/SeriousBug/rust-embed-for-web) [![Crates.io](https://img.shields.io/crates/d/rust-embed-for-web)](https://github.com/SeriousBug/rust-embed-for-web)
 
-A generic key-value storage library for Rust. Cuttlestore allows you to write
-your code once and run it on many key-value stores. Right now it comes with
-support for Redis and Sqlite, with planned support for CouchDB and DynamoDB.
+Rust Embed for Web simplifies web asset management by enabling direct embedding of HTML, CSS, and JavaScript into Rust executables. This ensures deployment consistency and includes performance optimizations like pre-computed headers and compression. The companion project, Rust Embed Responder for Actix Web, is tailored to efficiently serve embedded assets with intelligent caching and content negotiation, with a focus on high-performance web delivery.
 
-### [Rust Embed for Web ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/rust-embed-for-web) ![Crates.io](https://img.shields.io/crates/d/rust-embed-for-web)](https://github.com/SeriousBug/rust-embed-for-web)
+### [Cuttlestore](https://github.com/SeriousBug/cuttlestore) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/cuttlestore)](https://github.com/SeriousBug/cuttlestore) [![Crates.io](https://img.shields.io/crates/d/cuttlestore)](https://github.com/SeriousBug/cuttlestore)
 
-Embed files into your Rust executable. You can embed HTML, CSS, JavaScript
-files, all your assets into your server to bundle them together. This simplifies
-updates as your assets are always guaranteed to update together with your server.
+Cuttlestore provides a versatile abstraction layer for interacting with popular key-value stores like Redis and SQLite (with support for CouchDB and DynamoDB planned). This streamlines development, facilitates switching between storage backends, and promotes adaptable application design.
 
-This started as a fork of an existing project, but became a significant rewrite
-of it. It includes many features useful for web servers like precomputed header
-values and precompressed file contents.
+### [live limit](https://github.com/SeriousBug/live-limit) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/live-limit)](https://github.com/SeriousBug/live-limit) [![npm](https://img.shields.io/npm/dt/live-limit)](https://github.com/SeriousBug/live-limit)
 
-### [Rust Embed Responder for Actix Web ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/actix-web-rust-embed-responder) ![Crates.io](https://img.shields.io/crates/d/actix-web-rust-embed-responder)](https://github.com/SeriousBug/actix-web-rust-embed-responder)
+A TypeScript library for managing the number of concurrent asynchronous operations. It helps prevent server overload by ensuring only a set number of network requests, database queries, or other async tasks are in flight simultaneously. This library minifies under 1kb and has zero dependencies, helping minimize your bundle size.
 
-A sibling project to Rust Embed for Web, this is a responder for Actix Web that
-efficiently serves your embedded files. It handles cache validation and content
-type negotiation, and is built for high performance.
+### [Method Middleware for Actix Web](https://github.com/SeriousBug/actix-web-query-method-middleware) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/actix-web-query-method-middleware)](https://github.com/SeriousBug/actix-web-query-method-middleware) [![Crates.io](https://img.shields.io/crates/d/actix-web-query-method-middleware)](https://github.com/SeriousBug/actix-web-query-method-middleware)
 
-### [Bulgur Cloud ![GitHub Repo stars](https://img.shields.io/github/stars/bulgur-cloud/bulgur-cloud) ![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud)
+Niche middleware for the Actix Web framework that allows HTML forms to be submitted using HTTP methods other than the standard 'GET' or 'POST'. This provides greater flexibility in designing web forms and RESTful APIs, allowing lightweight pages to interact with rich APIs.
 
-![](https://media.githubusercontent.com/media/bulgur-cloud/bulgur-cloud.github.io/main/static/img/homepage-screenshot.png)
+### [Gandi Live Dns Rust](https://github.com/SeriousBug/gandi-live-dns-rust) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust) [![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust)
 
-An easy to self host cloud file storage and sharing system. It's similar to Google Drive or NextCloud, but effortless to set up and maintain. Built in Rust and TypeScript, using Actix-Web and React Native.
-
-### [live limit ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/live-limit) ![npm](https://img.shields.io/npm/dt/live-limit)](https://github.com/SeriousBug/live-limit)
-
-A TypeScript library that can limit the number of concurrent async operations
-running at a time. This is useful for making concurrent requests to a server
-without overloading your connection. Works with promises, has no dependencies,
-and comes under 1kb minzipped.
-
-### [Query Method Middleware for Actix Web ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/actix-web-query-method-middleware) ![Crates.io](https://img.shields.io/crates/d/actix-web-query-method-middleware)](https://github.com/SeriousBug/actix-web-query-method-middleware)
-
-Actix Web middleware that allows you to submit HTML forms using methods other
-than `POST`. Forms normally can only be submitted through `GET` or `POST`
-methods, but this middleware reroutes requests using a query parameter to other
-methods.
-
-### [Http Drogue](https://github.com/SeriousBug/http-drogue) ![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/http-drogue)
-
-![](https://raw.githubusercontent.com/SeriousBug/http-drogue/main/pub/screenshot.png)
-
-A tiny self-hosted service to download files over http, with support for resuming and restarting failed downloads.
-Built with Rust, basic HTML templates using Askama, TailwindCSS, and DaisyUI. Uses no javascript!
+This project simplifies domain management for dynamic IP setups. It automates DNS updates via Gandi's Live DNS feature, ensuring services remain accessible even with changing IP addresses. The solution offers both containerized (Docker) and traditional system package deployments, providing adaptability to different infrastructure environments.
 
 ---
 
 ## About me
 
 - I'm currently working at [Tailwind](https://www.tailwindapp.com/) as a
-  Software Engineer. I build serverless microservices with AWS CDK, Lambda, and
-  DynamoDB. I also build features in our Next.js app, and help maintain our PHP
-  server.
+  Software Engineer. I'm building microservices and polished UIs at Tailwind alongside a fantastic team.
+  We use TypeScript, Next.js, and AWS technologies like Lambda, DynamoDB, EventBridge, and more.
 - On my free time, I love playing with [Rust](https://www.rust-lang.org/) and
   [TypeScript](https://www.typescriptlang.org/) to build open source projects.
-  All the big ones are listed above! These projects usually involve React, React
-  Native, Actix Web, and Docker.
+  All the big ones are listed above! These projects usually involve React or SvelteKit, Actix Web, and Docker among other technologies.
 - I'm learning [Svelte](https://svelte.dev/). It's very fun because it compiles
   down to simple javascript, and gracefully supports progressive enhancement.
 - When I'm not programming, I am usually cooking (vegan), playing (World of
-  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my dogs.
+  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my spouse and our 2 dogs.
 - I graduated from The Ohio State University with an MS in Computer Science. You can find [my publications](https://scholar.google.com/citations?user=tHrUCC4AAAAJ&hl=en&oi=ao) online.
-- Pronouns: He/him
+- Pronouns: he/him or they/them
 
 You can find me at:
 
 - My website: [bgenc.net](https://bgenc.net)
 - Mastodon: [@kaan@fosstodon.org](https://fosstodon.org/web/@kaan)
-
-Also, here is my [gpg
-key](https://keys.openpgp.org/vks/v1/by-fingerprint/F5DEC5268AA501F35FBD5978B2E280771CD62FCF).
-I have never, ever, gotten an encrypted email. Send me one!
+- LinkedIn: [linkedin.com/in/kaan-barmore-genc](https://www.linkedin.com/in/kaan-barmore-genc)
