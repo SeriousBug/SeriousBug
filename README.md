@@ -28,16 +28,14 @@ This project simplifies domain management for dynamic IP setups. It automates DN
 
 ## About me
 
-- I'm currently working at [Tailwind](https://www.tailwindapp.com/) as a
-  Software Engineer. I'm building microservices and polished UIs at Tailwind alongside a fantastic team.
-  We use TypeScript, Next.js, and AWS technologies like Lambda, DynamoDB, EventBridge, and more.
+- I'm currently working at [Mixpanel](https://mixpanel.com/) where we're building tools to help everyone understand data and get answers. I work with alongside an amazing team using technologies like TypeScript, React, Python, Django, and more.
 - On my free time, I love playing with [Rust](https://www.rust-lang.org/) and
   [TypeScript](https://www.typescriptlang.org/) to build open source projects.
   All the big ones are listed above! These projects usually involve React or SvelteKit, Actix Web, and Docker among other technologies.
 - I'm learning [Svelte](https://svelte.dev/). It's very fun because it compiles
   down to simple javascript, and gracefully supports progressive enhancement.
-- When I'm not programming, I am usually cooking (vegan), playing (World of
-  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my spouse and our 2 dogs.
+- When I'm not programming, I am usually cooking, playing (World of
+  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my spouse and our dog.
 - I graduated from The Ohio State University with an MS in Computer Science. You can find [my publications](https://scholar.google.com/citations?user=tHrUCC4AAAAJ&hl=en&oi=ao) online.
 - Pronouns: he/him or they/them
 
@@ -45,4 +43,5 @@ You can find me at:
 
 - My website: [bgenc.net](https://bgenc.net)
 - Mastodon: [@kaan@fosstodon.org](https://fosstodon.org/web/@kaan)
+- BlueSky: [@bgenc.com](https://bsky.app/profile/bgenc.com)
 - LinkedIn: [linkedin.com/in/kaan-barmore-genc](https://www.linkedin.com/in/kaan-barmore-genc)
