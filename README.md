@@ -1,8 +1,31 @@
-## Featured Projects
+## Hi, I'm Kaan
 
-### [Bulgur Cloud](https://github.com/bulgur-cloud/bulgur-cloud) [![GitHub Repo stars](https://img.shields.io/github/stars/bulgur-cloud/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud) [![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/bulgur-cloud)](https://github.com/bulgur-cloud/bulgur-cloud)
+- I'm currently helping build Experiments at [Mixpanel](https://mixpanel.com/) — our experimentation platform that helps teams make data-driven product decisions by measuring the real impact of changes on user behavior — alongside a fantastic team.
+- On my free time, I love playing with [Rust](https://www.rust-lang.org/) and
+  [TypeScript](https://www.typescriptlang.org/) to build open source projects.
+  All the big ones are listed below! These projects usually involve React or SvelteKit, Actix Web, and Docker among other technologies.
+- When I'm not programming, I am usually cooking, playing (World of
+  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my spouse and our dog.
+- I graduated from The Ohio State University with an MS in Computer Science. You can find [my publications](https://scholar.google.com/citations?user=tHrUCC4AAAAJ&hl=en&oi=ao) online.
+- Pronouns: he/him or they/them
 
-Bulgur Cloud offers a user-friendly, self-hosted file storage and sharing platform with emphasis on hassle-free setup and maintenance. Built with modern web technologies: Rust (Actix-Web) for a robust backend and TypeScript (React, Next.js) for an intuitive interface.
+You can find me at:
+
+- My website: [bgenc.com](https://bgenc.com)
+- My CV: [bgenc.com/cv/](https://bgenc.com/cv/)
+- Mastodon: [@kaan@fosstodon.org](https://fosstodon.org/web/@kaan)
+- BlueSky: [@bgenc.com](https://bsky.app/profile/bgenc.com)
+- LinkedIn: [linkedin.com/in/kaan-barmore-genc](https://www.linkedin.com/in/kaan-barmore-genc)
+
+---
+
+## Featured Project
+
+### [Willet](https://willet.bgenc.dev) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/willet)](https://github.com/SeriousBug/willet)
+
+Willet is a task tracker built for AI coding agents, operated entirely through [MCP](https://modelcontextprotocol.io/) tools. It supports the full task lifecycle with subtasks, dependency linking, and semantic search backed by a local embedding model. The [core is open source](https://github.com/SeriousBug/willet), and there's also a [hosted version](https://willet.bgenc.dev) for people who'd rather not run it themselves. Built with TypeScript, React, Express, Drizzle ORM, and PostgreSQL, with Stripe for billing, OAuth for auth, and OpenTelemetry for observability.
+
+## Open Source Libraries
 
 ### [Rust Embed for Web](https://github.com/SeriousBug/rust-embed-for-web) and [Responder for Actix Web](https://github.com/SeriousBug/actix-web-rust-embed-responder) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/rust-embed-for-web)](https://github.com/SeriousBug/rust-embed-for-web) [![Crates.io](https://img.shields.io/crates/d/rust-embed-for-web)](https://github.com/SeriousBug/rust-embed-for-web)
 
@@ -18,30 +41,4 @@ A TypeScript library for managing the number of concurrent asynchronous operatio
 
 ### [Method Middleware for Actix Web](https://github.com/SeriousBug/actix-web-query-method-middleware) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/actix-web-query-method-middleware)](https://github.com/SeriousBug/actix-web-query-method-middleware) [![Crates.io](https://img.shields.io/crates/d/actix-web-query-method-middleware)](https://github.com/SeriousBug/actix-web-query-method-middleware)
 
-Niche middleware for the Actix Web framework that allows HTML forms to be submitted using HTTP methods other than the standard 'GET' or 'POST'. This provides greater flexibility in designing web forms and RESTful APIs, allowing lightweight pages to interact with rich APIs.
-
-### [Gandi Live Dns Rust](https://github.com/SeriousBug/gandi-live-dns-rust) [![GitHub Repo stars](https://img.shields.io/github/stars/SeriousBug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust) [![Docker Pulls](https://img.shields.io/docker/pulls/seriousbug/gandi-live-dns-rust)](https://github.com/SeriousBug/gandi-live-dns-rust)
-
-This project simplifies domain management for dynamic IP setups. It automates DNS updates via Gandi's Live DNS feature, ensuring services remain accessible even with changing IP addresses. The solution offers both containerized (Docker) and traditional system package deployments, providing adaptability to different infrastructure environments.
-
----
-
-## About me
-
-- I'm currently working at [Mixpanel](https://mixpanel.com/) where we're building tools to help everyone understand data and get answers. I work with alongside an amazing team using technologies like TypeScript, React, Python, Django, and more.
-- On my free time, I love playing with [Rust](https://www.rust-lang.org/) and
-  [TypeScript](https://www.typescriptlang.org/) to build open source projects.
-  All the big ones are listed above! These projects usually involve React or SvelteKit, Actix Web, and Docker among other technologies.
-- I'm learning [Svelte](https://svelte.dev/). It's very fun because it compiles
-  down to simple javascript, and gracefully supports progressive enhancement.
-- When I'm not programming, I am usually cooking, playing (World of
-  Warcraft, Rimworld, Ultrakill), riding my bicycle, or spending time with my spouse and our dog.
-- I graduated from The Ohio State University with an MS in Computer Science. You can find [my publications](https://scholar.google.com/citations?user=tHrUCC4AAAAJ&hl=en&oi=ao) online.
-- Pronouns: he/him or they/them
-
-You can find me at:
-
-- My website: [bgenc.net](https://bgenc.net)
-- Mastodon: [@kaan@fosstodon.org](https://fosstodon.org/web/@kaan)
-- BlueSky: [@bgenc.com](https://bsky.app/profile/bgenc.com)
-- LinkedIn: [linkedin.com/in/kaan-barmore-genc](https://www.linkedin.com/in/kaan-barmore-genc)
+Middleware for the Actix Web framework that allows HTML forms to be submitted using HTTP methods beyond 'GET' or 'POST'. This provides greater flexibility in designing web forms and RESTful APIs, allowing lightweight pages to interact with rich APIs.
